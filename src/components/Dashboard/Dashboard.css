@@ -1,0 +1,40 @@
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .summary {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .post-list ul {
+    list-style-type: none;
+  }
+  
+  .post-list li {
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff3333;
+  }
+  
+  @media (max-width: 768px) {
+    .summary {
+      flex-direction: column;
+    }
+  }
+  
